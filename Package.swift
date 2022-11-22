@@ -6,6 +6,9 @@ let package = Package(
     name: "dummy-objectivec-package",
     products: [],
     dependencies: [],
+    products: [
+        .library(name: "dummy-objectivec-package", targets: ["dummy-objectivec-package"]),
+    ], 
     targets: [
         .binaryTarget(
             name: "dummy-objectivec-package",
