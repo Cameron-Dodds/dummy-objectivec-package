@@ -1,5 +1,4 @@
 // swift-tools-version:5.7.1
-// test
 
 import PackageDescription
 
@@ -13,6 +12,6 @@ let package = Package(
         .binaryTarget(
             name: "dummy-objectivec-package",
             url: "https://d26w1q8rapqjdm.cloudfront.net/dummy-objectivec-package.xcframework.zip",
-	    checksum: "17b574bad64f10e0eef2891bfac0495919f682b8a3bc8677edee336fe6e622c8"),
+	    checksum: "3c3d38653107531463c6ca98b785472891b506c8635a779603af11eaded93aab"),
     ]
 )
