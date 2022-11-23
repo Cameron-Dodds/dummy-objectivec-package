@@ -12,6 +12,6 @@ let package = Package(
         .binaryTarget(
             name: "dummy-objectivec-package",
             url: "https://d26w1q8rapqjdm.cloudfront.net/dummy-objectivec-package.xcframework.zip",
-	    checksum: "3c3d38653107531463c6ca98b785472891b506c8635a779603af11eaded93aab"),
+	    checksum: "0c3a7fd6d0b5f0813bc2d4a1bdb41b298e18038ad4ca514aa0bd2e536dfa7fa1"),
     ]
 )
