@@ -1,0 +1,6 @@
+framework module dummy_objectivec_package {
+  umbrella header "dummy_objectivec_package.h"
+
+  export *
+  module * { export * }
+}
